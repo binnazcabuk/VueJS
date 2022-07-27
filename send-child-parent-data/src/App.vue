@@ -1,17 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+
+  <!-- user component'ine "getUserName" isimli methodu gönderiyoruz. -->
+  <User :getUser="getUserName" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import User from "./components/User.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    User,
+  },
+  data() {
+    return {
+      name: "",
+    };
+  },
+  methods: {
+    getUserName(name) {
+      this.name = name;
+      alert(name);
+    },
+  },
+};
 </script>
 
 <style>
