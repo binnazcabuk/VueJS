@@ -3,6 +3,7 @@
     <!-- seçili olan sekme active isimli style'a sahip olur -->
      <router-link  class="nav-link" active-class="active" to="/"> Home</router-link>      
      <router-link  class="nav-link" active-class="active" to="/user"> User</router-link>
+
   </div>
 </template>
 
