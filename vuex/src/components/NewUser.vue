@@ -17,6 +17,7 @@ export default {
     //     type: "mobilya",
     //   });
 
+//direkt state'e erişip veriyi eklemek
       //   this.$store.state.itemList.push({
       //     id: new Date().getTime(),
       //     title: "Raf" + new Date().getSeconds(),
