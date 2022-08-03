@@ -3,7 +3,7 @@
     <Header />
     <transition name="fade" mode="out-in">
       <router-view></router-view>
-    </transition>  
+    </transition>
     <Footer />
   </div>
 </template>
@@ -15,22 +15,23 @@ import ProductSell from "./components/ProductSell.vue";
 import ProductList from "./components/ProductList.vue";
 export default {
   components: { Header, Footer, ProductPurchase, ProductSell, ProductList },
-  created(){
+  created() {
     this.$store.dispatch("getTradeResult");
-  }
+    this.$store.dispatch("initApp");
+  },
 };
 </script>
 <style>
-body{
+body {
   background-color: #a7a0bb5c;
 }
-.fade-enter{
+.fade-enter {
   opacity: 0;
 }
-.fade-enter-active{
+.fade-enter-active {
   transition: opacity.3s ease-out;
 }
-.fade-leave-active{
+.fade-leave-active {
   transition: opacity.3s ease-out;
   opacity: 0;
 }
