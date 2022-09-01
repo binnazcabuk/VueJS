@@ -1,0 +1,20 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\Teknar\\\\Desktop\\\\VueJS\\\\middleware-cookies-localstorage-auth\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "auth",
+    "path": "/auth",
+    "component": "C:\\\\Users\\\\Teknar\\\\Desktop\\\\VueJS\\\\middleware-cookies-localstorage-auth\\\\pages\\\\auth\\\\index.vue",
+    "chunkName": "pages/auth/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Teknar\\\\Desktop\\\\VueJS\\\\middleware-cookies-localstorage-auth\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
